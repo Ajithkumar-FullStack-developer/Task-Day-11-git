@@ -1,0 +1,54 @@
+
+body {
+    background-color: #CAD2C5; /* Soft greenish-gray */
+}
+
+
+.header {
+    background-color: #2F3D46;
+    padding: 20px 30px;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.github-logo {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 36px;
+}
+
+.search-bar {
+    background-color: #353535;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.search-bar::placeholder {
+    color: #CAD2C5;
+}
+
+.content-block {
+    background-color: #353535;
+    border-radius: 10px;
+    height: 150px;
+    margin: 15px 0;
+}
+
+.large-block {
+    background-color: #353535;
+    border-radius: 10px;
+    height: 200px;
+    margin: 15px 0;
+}
